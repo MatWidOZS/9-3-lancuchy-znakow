@@ -7,8 +7,6 @@ console.log(dinosaur);
 
 text = text.replace('Velociraptor', dinosaur);
 
-console.log(text.length/2);  // = 72
-
-var halfText = text.slice(0, 72);
+var halfText = text.slice(0, text.length/2);
 
 console.log(halfText);
